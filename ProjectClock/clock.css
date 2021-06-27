@@ -1,0 +1,51 @@
+#Clock-container{
+	position: relative;
+	/*border-width: 2px;*/
+	margin: auto;
+	/*Browser will calcuate the percentage margin and put 
+	the element in center*/
+	border: 2px solid darkred;
+	width: 40vw;
+	/*vw meaning viewport ans 60vw - 60% vw width*/
+	height:  50vw;
+	background-image: url('clock.png');
+	background-repeat: no-repeat;
+    background-size: 100%;
+    /*background-size is make the background image responsive */
+}
+#hour{
+     background-color: black;
+     width: 2%;
+     height: 19%;
+     border-radius:10px;
+     position: absolute;
+     top : 21%;
+     left : 48.75%;
+     transform-origin: bottom;
+/*      display : none; */
+     
+}
+
+#minute{
+     background-color: black;
+     width: 1.5%;
+     height: 20%;
+     position: absolute;
+     top : 20.5%;
+     left : 49%;
+     border-radius: 10px;
+     transform-origin: bottom;
+/*     display:none; */
+}
+
+#second{
+       background-color: black ;
+     width: 1%;
+     height: 24%;
+     position: absolute;
+     border-radius:10px;
+     top : 16.5%;
+     left : 49.25%;
+     transform-origin: bottom;
+/*      display:none; */
+}
